@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 2.5%;
+}
+a {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-light {
+  background-color: lightgray;
+  color: #4f999e;
+}
+
+a:hover > .btn-light {
+  color: rgb(20, 137, 176);
+  background-color: rgb(164, 163, 163);
+}

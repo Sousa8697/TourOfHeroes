@@ -1,0 +1,19 @@
+<div>
+  <h3>My Heroes</h3>
+  <div
+    class="btn-group"
+    *ngFor="let hero of heroes"
+    (click)="setMiniDetailVisible(hero.id)"
+  >
+    <button type="button" class="btn btn-primary">
+      {{ hero.id }}
+    </button>
+    <button type="button" class="btn btn-light">
+      {{ hero.name }}
+    </button>
+  </div>
+  <app-mini-detail
+    [hidden]="!miniDetailVisible"
+    [hero]="selectedHero"
+  ></app-mini-detail>
+</div>

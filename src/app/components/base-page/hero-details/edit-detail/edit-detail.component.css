@@ -1,0 +1,16 @@
+.edit-detail-block {
+  padding-top: 2em;
+}
+label {
+  color: #4f999e;
+}
+input#id {
+  color: gray;
+}
+input#name {
+  border: 1px solid gray;
+  padding-left: 0.5em;
+}
+.btn-light {
+  color: gray;
+}

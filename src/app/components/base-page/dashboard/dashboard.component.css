@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  color: gray;
+}
+.container {
+  padding-top: 1em;
+}
+.cards {
+  padding-top: 0.5em;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4f999e;
+  min-height: 128px;
+}
+.card-body {
+  text-align: center;
+}
+
+.card-body > h5 {
+  padding: 1em;
+}
+
+a:hover {
+  color: white;
+}

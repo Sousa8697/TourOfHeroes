@@ -1,0 +1,14 @@
+<h1>Top Heroes</h1>
+<div class="container">
+  <div class="row">
+    <div class="cards col-md-3" *ngFor="let hero of heroes">
+      <a routerLink="../hero-edit/{{ hero.id }}">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ hero.name }}</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

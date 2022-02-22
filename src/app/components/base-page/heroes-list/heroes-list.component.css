@@ -1,0 +1,21 @@
+h3 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.btn-group {
+  display: block;
+  padding-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+
+.btn-light {
+  background-color: lightgray;
+  border-color: lightgray;
+  color: gray;
+  min-width: 10em;
+}
+
+.btn-primary {
+  background-color: #4f999e;
+  border-color: #4f999e;
+}

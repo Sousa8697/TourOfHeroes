@@ -1,0 +1,6 @@
+<div *ngIf="hero !== null">
+  <h3>{{ hero.name }} is my hero</h3>
+  <a routerLink="../hero-edit/{{ hero.id }}">
+    <button class="btn btn-light">View Details</button>
+  </a>
+</div>
